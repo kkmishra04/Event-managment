@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: coolfont;
+    src: url(fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: popinsbold;
+    src: url(fonts/Teko-Regular.ttf);
+}
+
+@font-face {
+    font-family: popinslight;
+    src: url(fonts/Poppins-ExtraLight.ttf);
+}
+
+#banner-1{
+    background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-608a0cae--Lifeline-24.png?v=1604478963");
+    padding: 13% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 6%;
+}
+
+#banner-1 h1{
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    font-family: popinsbold;
+}
+
+#banner-1 p{
+    color: white;
+    font-size: 1.5em;
+    font-family: popinslight;
+    padding: 0 2%;
+}
+
+@media only screen and (max-width:550px){
+    #banner-1 p{
+        padding: 0 4%;
+    }
+}
+
+.s2-icons{
+    padding-left:39%;
+}
+
+@media only screen and (max-width:990px) {
+    .s2-icons{
+        padding-left:39%;
+    }
+}
+
+
+#section-3{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#s3-img{
+    background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-4d333a55--Lifeline-1.png?v=1604479112");
+    padding: 14% 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media only screen and (max-width:770px){
+    #s3-img{
+        padding: 27% 0;
+        margin-left: 4%;
+    }
+}
+
+
+#s3d2 h1{
+    padding-top: 10%;
+    font-weight: bold;
+    font-family: coolfont;
+    color: blueviolet;
+}
+
+#s3d2 p{
+    color: grey;
+    font-size: 1.2em;
+}
+
+#s3d2 button{
+    margin-top: 3%;
+    font-size: 1.5em;
+    padding: 2% 9%;
+    background-color: #27ae60;
+    font-weight: bold;
+    font-family: coolfont;
+    color: white;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+#s3d2 button:hover{
+    background-color: blueviolet;
+}
+
+#section-4{
+    padding:6% 0 ;
+    margin-bottom: 6%;
+    background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-e9c46f83--Linelife-45-Edited-Edited.jpg?v=1608804153");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section-4 h1{
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+#section-4 h3{
+    color: white;
+    font-weight: bold;
+}
+
+#section-5{
+    margin-bottom: 6%;;
+}
+#section-5 h1{
+    font-size: 3em;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+#section-5 h3{
+    color: blueviolet;
+    margin-top: 4%;
+}
+
+#section-5 p{
+    color: grey;
+    font-size: 1.2em;
+}
+
+s5-img{
+    margin-right: 0;
+}
+
+@media only screen and (min-width:1314px) {
+    .s5-img{
+        margin-right: 1%;
+    }
+}
+
+#section-6{
+    margin-top: 6%;
+    background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-0a82ceaa--lifeline-2.png?v=1603686637");
+    background-size: cover;
+    background-position: center center;
+}
+
+#section-6 h1{
+    color: white;
+    font-weight: bold;
+}
+#s6d2{
+    background-color: rgba(255, 255, 255,0.5);
+    margin-bottom: 4%;
+    margin-left: 19%;
+    padding: 3% 5%;
+}
+
+@media only screen and (max-width:1000px) {
+    #s6d2{
+        padding: 3% 4%
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #s6d2{
+        padding: 3% 2%
+    }
+}
+
+#slider-1 p{
+    color: white;
+}
+
+.slider-img1{
+    border-radius: 50%;
+    margin: 3%;
+    margin-left: 44%;
+}
+
+@media only screen and (max-width:990px) {
+    .slider-img1{
+        margin-left: 38%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .slider-img1{
+        margin-left: 30%;
+    }
+}
+
+#section-7{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+#s7-img{
+    background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-9296bd37--Lifeline-28.png?v=1604479472");
+    padding: 16% 0;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width:770px) {
+    #s7-img{
+        margin-right: 1%;
+        margin-left: 4%;
+        padding: 25% 0;
+    }
+}
+
+#s7d2 h1{
+    padding-top: 15%;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#s7d2 button{
+    margin-top: 3%;
+    font-size: 1.4em;
+    padding: 2% 9%;
+    background-color: #27ae60;
+    font-family: coolfont;
+    color: white;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
